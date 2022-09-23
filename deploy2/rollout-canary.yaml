@@ -32,7 +32,7 @@ spec:
     metadata:
       labels:
         app: demo
-        version: blue
+        version: red
     spec:
       containers:
       - name: demo
