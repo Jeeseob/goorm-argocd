@@ -27,12 +27,12 @@ spec:
   selector:
     matchLabels:
       app: demo
-      version: red
+      version: blue
   template:
     metadata:
       labels:
         app: demo
-        version: red
+        version: blue
     spec:
       containers:
       - name: demo
