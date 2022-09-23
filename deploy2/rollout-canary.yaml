@@ -27,7 +27,7 @@ spec:
   selector:
     matchLabels:
       app: demo
-      version: blue
+      version: red
   template:
     metadata:
       labels:
@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: argoproj/rollouts-demo:green
+        image: argoproj/rollouts-demo:red
         imagePullPolicy: Always
         ports:
         - name: web
